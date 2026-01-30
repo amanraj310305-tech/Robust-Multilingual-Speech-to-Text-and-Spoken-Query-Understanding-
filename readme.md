@@ -1,46 +1,40 @@
-Robust Multilingual Speech Intent Classification 
+# 🚀 Robust Multilingual Speech Intent Classification
 
 This project implements a multilingual speech-to-text and spoken query understanding pipeline using OpenAI Whisper and NLP techniques. The system records user speech, transcribes it into text, classifies intent, and evaluates robustness under noisy conditions by measuring Word Error Rate (WER) and intent agreement.
 
 The project also performs experimental reliability analysis by comparing clean and noisy transcriptions to study degradation patterns in real-world speech scenarios.
 
-🚀 Features
+---
 
-Real-time audio recording
+## ✨ Features
 
-Multilingual speech recognition with automatic language detection
+- Real-time audio recording  
+- Multilingual speech recognition with automatic language detection  
+- Text preprocessing using NLTK  
+- Intent classification using TF-IDF + Logistic Regression  
+- Noise robustness evaluation  
+- Word Error Rate (WER) based accuracy analysis  
+- Reliability metric computation  
+- CSV-based experimental result logging  
 
-Text preprocessing using NLTK
+---
 
-Intent classification using TF-IDF + Logistic Regression
+## 🛠 Tech Stack
 
-Noise robustness evaluation
+- Python  
+- OpenAI Whisper  
+- PyTorch  
+- SoundDevice  
+- NLTK  
+- Scikit-learn  
+- Pandas  
+- NumPy  
+- Jiwer  
 
-Word Error Rate (WER) based accuracy analysis
+---
 
-Reliability metric computation
+## 📂 Project Structure
 
-CSV-based experimental result logging
-
-🛠 Tech Stack
-
-Python
-
-OpenAI Whisper
-
-PyTorch
-
-SoundDevice
-
-NLTK
-
-Scikit-learn
-
-Pandas
-
-NumPy
-
-Jiwer
 
 📂 Project Structure
 
@@ -117,4 +111,5 @@ Save full experiment results to CSV
 
 Raj
 BTech CSE Student
+
 
