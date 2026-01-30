@@ -1,0 +1,9 @@
+openai-whisper
+torch
+sounddevice
+numpy
+pandas
+nltk
+scikit-learn
+jiwer
+ffmpeg-python
